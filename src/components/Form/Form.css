@@ -1,24 +1,13 @@
 .form-container {
   /* background-color: dimgray; */
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 15% 75%;
-  grid-template-areas:
-    'form-title'
-    'form';
-  grid-gap: 1em;
-}
-
-.form-title {
+  width: 75%;
   display: flex;
-  color: #ffffff;
   justify-content: center;
   align-items: center;
-  grid-area: form-title;
 }
 
 .form {
-  /* background-color: dimgray; */
+  background-color: #ffffff;
   grid-area: form;
   display: flex;
   flex-direction: row;
@@ -32,7 +21,7 @@
 .input {
   font-size: 1em;
   background-color: #ffffff;
-  width: 10%;
+  width: 20%;
   height: 25%;
   border-radius: 8px;
   margin-bottom: 5px;

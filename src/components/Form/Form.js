@@ -29,7 +29,6 @@ function Form({ addTrick }) {
 
   return (
     <div className="form-container">
-      <h2 className="form-title">Add A Trick</h2>
       <form className="form">
         <input
           className="input"
