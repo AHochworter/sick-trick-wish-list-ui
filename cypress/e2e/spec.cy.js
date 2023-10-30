@@ -30,6 +30,11 @@ describe('should load the home page', () => {
       .get("input[name='tutorial']")
       .type('https://www.hp.com')
       .get('.submit-btn')
-      .should('exist');
+      .should('exist')
+      .get('.submit-btn')
+      .click()
+      .get('.tricks')
+      .children()
+      .should('have.length', 4);
   });
 });
