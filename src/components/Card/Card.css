@@ -1,4 +1,5 @@
 .card {
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -14,4 +15,8 @@ h3 {
 
 p {
   font-size: 1em;
+}
+.tutorial-content {
+  color: blue;
+  text-decoration: underline;
 }
